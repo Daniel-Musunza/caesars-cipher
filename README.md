@@ -16,3 +16,32 @@ To use the ROT13 Decoder, follow these steps:
    var encodedString = "SERR PBQR PNZC";
    var decodedString = rot13(encodedString);
 
+
+3. The function will return the decoded string. You can then use or display the decoded string as needed.
+
+    ```javascript
+    console.log(decodedString); // Output: "FREE CODE CAMP"
+
+## Example
+    Here's an example that demonstrates the usage of the ROT13 Decoder function:
+
+         ```javascript
+        var encodedString = "SERR PBQR PNZC";
+        var decodedString = rot13(encodedString);
+        console.log(decodedString); // Output: "FREE CODE CAMP"
+
+
+## Limitations
+The ROT13 Decoder function only works for ROT13 encoded strings that contain uppercase letters. It does not support decoding of strings with lowercase letters or non-alphabetic characters.
+
+## License
+This project is licensed under the MIT License.
+
+ ```javascript
+Feel free to modify or enhance the README.md file as per your requirements.
+
+
+
+
+
+
